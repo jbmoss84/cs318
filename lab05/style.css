@@ -1,0 +1,36 @@
+body {
+background-color: aqua; 
+    position: fixed
+    width: 800px;
+}
+
+h1 {
+color: coral;
+}
+
+h2 {
+color: coral;       
+}
+
+h3 {
+color: coral;    
+}
+
+p {
+color: coral;   
+}
+
+figcaption {
+    font-style: italic;
+    color: rgb(128,128,128);
+}
+
+figure {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 600px;
+    
+}
