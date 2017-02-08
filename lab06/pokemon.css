@@ -1,0 +1,46 @@
+.card{
+    width:200px;
+    display: inline-block;
+    border-style: transparent;
+    border-color: white;
+    border-width: 0%;
+    border-radius: 0%;
+    vertical-align: top;
+}
+.card img{
+    width:100%;
+    
+}
+.name{
+    font-weight:bold;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.card p{
+    font-family: sans-serif;
+}
+#card1{
+    background-color: palevioletred;
+    
+}
+#card2{
+    background-color: lightpink;
+    
+}
+#card3{
+    background-color: greenyellow;
+    
+}
+#card4{
+    background-color: bisque;
+    
+}
+#card5{
+    background-color: yellow;
+    
+}
+#card6{
+    background-color: mediumpurple;
+    
+}
