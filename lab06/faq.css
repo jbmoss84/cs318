@@ -1,0 +1,16 @@
+body {
+background-color: deepskyblue;
+}
+
+h3 {
+font-size: 24pt;
+font-family: 'Oswald', sans-serif;
+text-shadow: 1px 1px 1px #000000;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.answer {
+font-family: 'Raleway', sans-serif;
+
+}

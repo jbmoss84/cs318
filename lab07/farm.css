@@ -1,0 +1,17 @@
+body {
+    background-image: url(farm.jpg);
+    background-repeat: no-repeat;
+}
+.nav {
+    margin-top: 533px;
+    background-image: url(rsz_cow.png);
+    background-color: sandybrown;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: salmon;
+    text-align: right;
+    
+}
+.nav a{
+    color: sandybrown;
+}

@@ -4,7 +4,7 @@
     border-style: transparent;
     border-color: white;
     border-width: 0%;
-    border-radius: 0%;
+    border-radius: 10px;
     vertical-align: top;
 }
 .card img{
@@ -43,4 +43,9 @@
 #card6{
     background-color: mediumpurple;
     
+}
+.favorite{
+    border-style: dotted;
+    border-color: black;
+    border-width: 20%;
 }
