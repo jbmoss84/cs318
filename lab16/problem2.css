@@ -1,0 +1,96 @@
+body{
+    background: orange; 
+    background: -webkit-linear-gradient(white, orange);
+    background: -o-linear-gradient(white, orange);  
+    background: -moz-linear-gradient(white, orange); 
+    background: linear-gradient(white, orange);
+    background-repeat: no-repeat;
+}
+img {
+    margin-top: 100px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:15%;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    opacity: .6;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    text-align: middle;
+    color: white;
+}
+
+.firstBox {
+   
+    display: inline-block;
+    box-sizing: content-box;
+    border: solid 5px #000000;
+    background-color: pink;
+    width: 200px;
+    height: 150px;
+    
+}
+
+.border {
+    float: right;
+    display: inline-block;
+    box-sizing: content-box;
+    border: solid 5px #000000;
+    padding: 5px;
+    width: 220px;
+    height: 170px;
+}
+
+.pink {
+    position: relative;
+    padding: 10px;
+    background-color: pink;
+    width: 200px;
+    height: 150px;
+}
+
+.pink2 {
+    position: absolute;
+    right: 20%;
+    padding: 10px;
+    background-color: pink;
+    width: 200px;
+    height: 150px;
+}
+.box {
+    width: 100%;
+}
+.box p{
+    display: inline;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .firstBox {
+        width: 100%;
+    
+    }
+    .pink {
+        
+        width: 95%;
+        padding:none;
+    }
+    .border {
+        
+        width: 100%;
+    }
+    .pink2 {
+        left:0px;
+    }
+}
+
+
+
+
+
