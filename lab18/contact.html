@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  <style>
+    #form {
+        border-radius: 10px;
+        display: block;
+        background-color: #888888;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+
+    }
+
+    #button {
+      background-color: blue;
+      color: white;
+      border: none;
+    }
+  </style>
+  <body>
+    <div id="form">
+      <form action="https://formspree.io/koenigjr@uwec.edu" method="POST" >
+        Name: <input type="text" name="name"><br>
+        Email: <input type="email" name="_replyto"><br>
+        Subject: <input type="text" name="subject"><br>
+        <textarea rows="10" cols="35" name="message" placeholder="What's on your mind?"></textarea><br>
+        <input type="submit" id="button" value="Send">
+      </form>
+    </div>
+  </body>
+
+</html>
