@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  <style>
+    #form {
+        border-radius: 10px;
+        display: block;
+        background-color: skyblue;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    .left {
+        width: 40%;   
+        clear: both;
+        text-align: right;
+    }
+    h1 {
+        font-size: 22px;
+        padding: 20px;
+    }
+    
+      div {
+          padding: 5px;
+      }
+    
+      select {
+          width: 285px;
+      }
+      #name {
+          width: 280px
+      }
+      #slider {
+          width: 270px;
+      }
+  </style>
+  <body>
+    
+      <form action="https://formspree.io/koenigjr@uwec.edu" method="POST" >
+        <h1>Your Tech Preferences</h1>
+        <ol>
+            <li>
+                <div>What operating system do you use on your phone?</div>
+                <div><input type="radio" name="phoneOS" value="iOS">iOS</div>
+                <div><input type="radio" name="phoneOS" value="android">Android</div>
+                <div><input type="radio" name="phoneOS" value="windows">Windows</div>
+            </li>
+            <li>
+                <div>Which of these text editors do you use?</div>
+                <div><input type="checkbox" name="texteditor">Atom</div>
+                <div><input type="checkbox" name="texteditor">Bluefish</div>
+                <div><input type="checkbox" name="texteditor">Notepad++</div>
+                <div><input type="checkbox" name="texteditor">Vim</div>
+            </li>
+            <li>
+                <div>What brand of phone are you currently using?</div>
+                <div><input type="text" name="brand"></div>
+            </li>
+            <li>
+                <div>Tell us about your ideal workstation.</div>
+                <div><textarea name="workstation" cols="75" rows="10"></textarea></div>
+            </li>
+            <li>
+                <div>Have you ever owned a wearable?</div>  
+                <div><input type="radio" name="wearable" value="yes">Yes</div>
+                <div><input type="radio" name="wearable" value="no">No</div>
+            </li>
+        </ol>
+        <input type="submit">
+      </form>
+    
+  </body>
+
+</html>

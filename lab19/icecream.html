@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  <style>
+    #form {
+        border-radius: 10px;
+        display: block;
+        background-color: skyblue;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+    
+      
+    
+    #button {
+      border: none;
+    }
+    
+    .left {
+        width: 40%;   
+        clear: both;
+    }
+    h1 {
+        font-size: 22px;
+        padding: 20px;
+    }
+    
+      div {
+          float: left;
+      }
+  </style>
+  <body>
+    <div id="form">
+      <form action="https://formspree.io/koenigjr@uwec.edu" method="POST" >
+        <h1 align="Center">Chillax Order Form</h1>
+        <div class="left">Who are you?</div>
+        <div><input type="text" name="name"></div>
+        <div class="left">What flavor?</div>
+        <div>
+            <select name="flavors" multiple="true" >
+                <option value="chocolate">Chocolate</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="mintCC">Mint Chocolate Chip</option>
+            </select>
+        </div>
+        <div class="left">In what?</div>  
+        <div>
+            <select name="cone" multiple="true">
+                <option value="waffle">Waffle</option>
+                <option value="sugar">Sugar</option>
+                <option value="dish">Dish</option>
+            </select>
+        </div>
+        <div class="left">Sprinkles?</div>
+        <div><input type="checkbox" name="sprinkles"></div>
+        <div class="left">How messy are you?</div>
+        <div><input type="range" name="messymeter" min="0" max="3"></div>
+        <div></div>
+        <div><input type="submit" id="button" value="Order"></div>
+           
+                
+      
+      </form>
+    </div>
+  </body>
+
+</html>
