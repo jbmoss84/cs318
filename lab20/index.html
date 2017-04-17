@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <script src="phone.js"></script>
+  </head>
+  <style>
+
+    .container {
+        width: 100%;
+    }
+
+    #form {
+        position: relative;
+        border-radius: 10px;
+        display: block;
+        background-color: skyblue;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #range {
+      width: 300px;
+    }
+
+    .pButton {
+      border: none;
+      background-color: rgba(100, 100, 100, 0.3);
+      border-radius: 100px;
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 22px;
+      padding: 20px;
+    }
+
+    button {
+
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="form">
+          <h1 align="Center">Phone Number Picker</h1>
+          <input id="range" type="range" name="messymeter" min="1000000000" max="9999999999" onchange="getRangeValue(this.value);">
+          <br>
+          <input type="text" id="number" value="5555555555">
+          <br>
+          <input type="submit" id="button" value="Dial">
+      </div>
+
+      <div id="form">
+          <h1 align="Center">Phone Number Dialer</h1>
+          <input id="check" type="checkbox" onclick="addDigit(1);">
+          <input id="check" type="checkbox" onclick="addDigit(2);">
+          <input id="check" type="checkbox" onclick="addDigit(3);">
+          <br>
+          <input id="check" type="checkbox" onclick="addDigit(4);">
+          <input id="check" type="checkbox" onclick="addDigit(5);">
+          <input id="check" type="checkbox" onclick="addDigit(6);">
+          <br>
+          <input id="check" type="checkbox" onclick="addDigit(7);">
+          <input id="check" type="checkbox" onclick="addDigit(8);">
+          <input id="check" type="checkbox" onclick="addDigit(9);">
+          <br>
+          <input type="text" id="digit" value="">
+          <br>
+          <input type="submit" id="button" value="Dial">
+      </div>
+
+    </div>
+  </body>
+
+</html>
